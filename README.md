@@ -14,7 +14,7 @@
 # EndPoints
 
 ### create-ticket
-* [request POST] (http://localhost:8090/tikets/v1/create-ticket)
+* [request POST] (http://localhost:8080/tikets/v1/create-ticket)
  -- header 'Content-Type: application/json' \
  -- data '{
       "user": "Tiket 1",
@@ -22,7 +22,7 @@
       }'
 
 ### list-ticket
-* [request POST] (http://localhost:8090/tikets/v1/list-ticket)
+* [request POST] (http://localhost:8080/tikets/v1/list-ticket)
   --header 'Content-Type: application/json' \
   --data '{
         "filters": [
@@ -46,7 +46,7 @@
 * [more about criteria] (https://reflectoring.io/spring-data-specifications/)
 
 ### edit-ticket
-* [request PUT] (http://localhost:8090/tikets/v1/edit-ticket)
+* [request PUT] (http://localhost:8080/tikets/v1/edit-ticket)
   --header 'Content-Type: application/json' \
   --data '	{
     "id": 2,
@@ -56,4 +56,4 @@
 
 
 ### edit-ticket
-* [request DELETE] (http://localhost:8090/tikets/v1/delete-ticket/{ticketId})
+* [request DELETE] (http://localhost:8080/tikets/v1/delete-ticket/{ticketId})
