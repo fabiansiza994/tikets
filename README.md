@@ -7,9 +7,9 @@
 * API REST Client example (https://www.postman.com/, https://insomnia.rest/)
 
 # Docker
-
+* Generate Jar file in project with Maven Install
 * docker build -t fmsp/tikets .
-* docker run -p 8090:8090 fmsp/tickets -d
+* docker run -d -p 8080:8090 fmsp/tikets
 
 # EndPoints
 
